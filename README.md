@@ -4,7 +4,7 @@ Included in this repository are tools to help process data from Google Scholar. 
 ## Scrape a Scholar's Publications (scrape_author.py)
 This script scrapes a given author's publication page, then returns a link to each publication on their initial page.
 
-### To scrape a publication's page
+### To scrape a individaul's publications page
 To scrape an author's page, you enter the following in the command line:
 <pre>$ python scrape_author.py "some scholar url"</pre>
 You must replace the some scholar url, with the a google scholar link for an individual. However, it is *important* that you **leave the quotations marks**.
