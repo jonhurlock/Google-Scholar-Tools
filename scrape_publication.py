@@ -3,6 +3,12 @@ import urllib # used for grabbing data from URLs
 import unicodedata # for converting unicode to ascii
 import sys # for taking
 """
+Jon Hurlock's Google Scholar Tools by Jon Hurlock (@jonhurlock)
+*	is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.
+*	Permissions beyond the scope of this license may be available at http://cs.swan.ac.uk/~csjonhurlock/
+
+--------
+
 The following page scrapes important data from a google publication page.
 You must provide an URL for an individual publication, enclosed in quotations marks
 
