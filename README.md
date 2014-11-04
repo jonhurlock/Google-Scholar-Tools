@@ -1,5 +1,5 @@
 # Google Scholar Tools
-Included in this repository are tools to help process data from Google Scholar. The tools are written in Python.
+Included in this repository are tools to help process data from Google Scholar. The tools are written in Python, and utilise the [Beautiful Soup](http://www.crummy.com/software/BeautifulSoup/) to handle most of the HTML parsing. You will need to install this if you have not already got it installed.
 
 ## Scrape a Scholar's Publications (scrape_author.py)
 This script scrapes a given author's publication page, then returns a link to each publication on their initial page.
