@@ -1,10 +1,24 @@
 # Google Scholar Tools
 Included in this repository are tools to help process data from Google Scholar. The tools are written in Python.
 
-## Scrape Authors Publication
+## Scrape a Scholar's Publications (scrape_author.py)
 This script scrapes a given author's publication page, then returns a link to each publication on their initial page.
 
-## Scrape an Individual Publication Page
+### To scrape a publication's page
+To scrape an author's page, you enter the following in the command line:
+<pre>$ python scrape_author.py "some scholar url"</pre>
+You must replace the some scholar url, with the a google scholar link for an individual. However, it is *important* that you **leave the quotations marks**.
+#### An Example Author Scrape
+Input:
+<pre>$ python scrape_author.py "http://scholar.google.co.uk/citations?user=pu0mIWgAAAAJ&hl=en"</pre>
+Output:
+<pre>Publications for Jonathan Hurlock:
+
+Searching Twitter: Separating the Tweet from the Chaff. ==> http://scholar.google.co.uk/citations?view_op=view_citation&hl=en&oe=ASCII&user=pu0mIWgAAAAJ&citation_for_view=pu0mIWgAAAAJ:u5HHmVD_uO8C
+
+Keyword clouds: having very little effect on sensemaking in web search engines ==> http://scholar.google.co.uk/citations?view_op=view_citation&hl=en&oe=ASCII&user=pu0mIWgAAAAJ&citation_for_view=pu0mIWgAAAAJ:u-x6o8ySG0sC</pre>
+
+## Scrape an Individual Publication Page (scrape_publication.py)
 This script scrapes a given publication page. It will also try and retreive the MIME type of any linked documents.
 ### To scrape a publication's page
 To scrape a publication page, you enter the following in the command line:
