@@ -1,4 +1,4 @@
-from bs4 import BeautifulSoup, SoupStrainer # used for parsing and doing some funky HTML stuff
+from bs4 import BeautifulSoup # used for parsing and doing some funky HTML stuff
 import urllib # used for grabbing data from URLs
 import unicodedata # for converting unicode to ascii
 import sys # for taking
