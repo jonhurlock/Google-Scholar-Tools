@@ -1,7 +1,10 @@
 # Google Scholar Tools
 Included in this repository are tools to help process data from Google Scholar. The tools are written in Python.
 
-## Scrape Publication
+## Scrape Authors Publication
+This script scrapes a given author's publication page, then returns a link to each publication on their initial page.
+
+## Scrape an Individual Publication Page
 This script scrapes a given publication page. It will also try and retreive the MIME type of any linked documents.
 ### To scrape a publication's page
 To scrape a publication page, you enter the following in the command line:
